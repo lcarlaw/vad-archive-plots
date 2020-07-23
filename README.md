@@ -30,7 +30,15 @@ While the `STORM_MOTION` and `SFC_WIND` flags are optional, they're strongly enc
 
 ### Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lcarlaw/vad-archive-plots/master?urlpath=lab)
 
+* Click on the Binder badge to access the online Binder Notebook. You'll be taken to a landing screen as the environment loads. This should only take a few seconds.
 
+* Towards the bottom left of the interactive pane that loads, click the **Terminal ($_)** icon. A shell terminal tab should open up after a second or two.
+
+![](https://raw.githubusercontent.com/lcarlaw/vad-archive-plots/master/example_images/binder_landing.png)
+
+* Type `python main.py` and hit `Enter`. You'll see the user prompts appear.
+
+* Once things finish running, a `.zip` file (the format will be something like `data_YYYYMMDD-HHmm.zip`) should appear in the left hand navigation bar. Right click it and select "Download" to save the images off locally.
 
 ### Repl.it ![Run on Repl.it](https://repl.it/badge/github/lcarlaw/vad-archive-plots)
 
@@ -40,7 +48,7 @@ While the `STORM_MOTION` and `SFC_WIND` flags are optional, they're strongly enc
   <img width="750" height="60" src="https://github.com/lcarlaw/vad-archive-plots/blob/master/example_images/username.png?raw=true">
 </p>
 
-* On the landing screen, hit the ***run*** button. You'll see some prompts appear on the right hand side of the page. Each of these inputs are outlined in more detail below:
+* On the landing screen, hit the ***run*** button. You'll see the user prompts appear on the right hand side of the page.
 
 ### NCEI-based archive downloads
 If past the 30-day online archive window, you can manually download Level 3 NVW files from NCEI for plotting. If the don't specify a start and end time, a final prompt will appear asking for a directory containing user-downloaded files.
