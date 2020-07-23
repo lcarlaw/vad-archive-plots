@@ -1,0 +1,2 @@
+language = "python3"
+run = "cc ucnids.c -o ucnids -lz -w; python main.py"

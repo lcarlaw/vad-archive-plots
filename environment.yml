@@ -1,0 +1,9 @@
+name: vanilla
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - matplotlib
+  - numpy
+prefix: /Users/leecarlaw/anaconda3/envs/vanilla

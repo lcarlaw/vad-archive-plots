@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# For Jupyter Binder.
+# ucnids compile
+
+cc ucnids.c -o ucnids -lz
+
+exec "$@"
